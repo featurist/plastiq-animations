@@ -1,0 +1,27 @@
+{
+  "name": "plastiq-animations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-es2015": "6.0.15",
+    "babel-preset-react": "6.0.15",
+    "babelify": "7.2.0",
+    "beefy": "2.1.5",
+    "ease-component": "1.0.0",
+    "http-server": "0.9.0",
+    "plastiq": "git+https://github.com/featurist/plastiq.git",
+    "watchify": "3.6.0"
+  },
+  "devDependencies": {
+    "babelify": "7.2.0",
+    "browserify": "13.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "browserify index.jsx -t babelify -d > index.js",
+    "start": "http-server"
+  },
+  "author": "",
+  "license": "ISC"
+}
